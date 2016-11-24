@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="增删"
+        android:elevation="10dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="改查"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_async"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:text="异步操作"
+        android:elevation="10dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+</LinearLayout>
